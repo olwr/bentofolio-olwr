@@ -1,0 +1,101 @@
+@media only screen and (width >= 1024px) {
+    main {
+        display: flex;
+        flex-direction: column;
+        padding: var(--size-xxs);
+        gap: var(--size-xxs);
+    }
+
+    .row {
+        flex-direction: row;
+    }
+
+    .info {
+        flex-direction: row;
+        align-items: flex-start;
+        gap: var(--size-l);
+        width: 80%;
+    }
+
+    .info-left {
+        align-items: center;
+        gap: var(--size-m);
+    }
+
+    .title {
+        align-self: flex-start;
+    }
+
+    .about-me {
+        width: 90%;
+    }
+
+    .info-right {
+        align-self: center;
+    }
+
+    .latest-work {
+        gap: var(--size-s);
+        width: 20%;
+    }
+
+    .prototype-link {
+        font-size: var(--size-s);
+    }
+
+    .third-left {
+        width: 80%;
+        gap: var(--size-xxs);
+    }
+
+    .third-right {
+        width: 20%;
+    }
+
+    h4 {
+        font-size: var(--size-m);
+    }
+
+    .stack-icons {
+        font-size: var(--size-l);
+        gap: var(--size-lx);
+    }
+
+    .top-left {
+        flex-direction: row;
+        gap: var(--size-xs);
+    }
+
+    .contact {
+        justify-content: center;
+        gap: 2.8rem;
+        width: 40%;
+    }
+
+    .contact-icons a {
+        font-size: var(--size-xm);
+    }
+
+    .hobbies {
+        width: 60%;
+        gap: var(--size-m);
+    }
+
+    .lists {
+        gap: var(--size-m);
+    }
+
+    .hobbies-list {
+        flex-direction: row;
+        gap: var(--size-xs);
+    }
+
+    hr {
+        display: block;
+    }
+
+    .services-itens {
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
+}
